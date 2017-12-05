@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "modules": [
+        {
+            "name": "Mehrspalten Layout",
+            "directory": "cc_multicolumn",
+            "guid": "b9db6fee-da6a-4203-aac4-9c50dc866ae3",
+            "version": "v2.0",
+            "author": "Matthias Glienke, creativecat",
+            "license": "GNU General Public License",
+            "bundled": "N",
+            "since": "18.02.2015 17:40:07",
+            "description": {
+                "en": {
+                    "title": "The add on \"MultiColumn\" provides a simple way to integrate multiple columns. You don't need to customize your frontend template. For details see <a href=\"https:\/\/github.com\/BlackCatDevelopment\/MultiColumn_for_BlackCatCMS\" target=\"_blank\">GitHub<\/a>.<br\/><br\/>Done by Matthias Glienke, <a class=\"icon-creativecat\" href=\"http:\/\/creativecat.de\"> creativecat<\/a>"
+                }
+            },
+            "require": {
+                "core": {
+                    "release": "1.x"
+                }
+            },
+            "github": {
+                "organization": "BlackCatDevelopment",
+                "repository": "MultiColumn_for_BlackCatCMS"
+            }
+        }
+    ]
+}
