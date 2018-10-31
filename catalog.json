@@ -1,5 +1,5 @@
 {
-    "version": "2.0.0.3",
+    "version": "2.0.0.4",
     "modules": [
         {
             "name": "Socialmedia Link Manager",
@@ -52,6 +52,32 @@
             "github": {
                 "organization": "BlackCatDevelopment",
                 "repository": "BC2_VisitorStatistics"
+            }
+        },{
+            "name": "Menu Manager",
+            "directory": "coreMenuAdmin",
+            "guid": "",
+            "version": "0.1",
+            "author": "BlackCat Development",
+            "license": "GNU General Public License",
+            "bundled": "Y",
+            "since": "31.10.2018",
+            "description": {
+                "en": {
+                    "title": "Manage your menus here"
+                },
+                "de": {
+                    "title": "Menüs verwalten"
+                }
+            },
+            "require": {
+                "core": {
+                    "release": "2.x"
+                }
+            },
+            "github": {
+                "organization": "BlackCatDevelopment",
+                "repository": "BC2_Socialmedia"
             }
         }
     ]
