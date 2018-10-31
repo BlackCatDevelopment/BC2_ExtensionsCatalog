@@ -1,5 +1,5 @@
 {
-    "version": "2.0.0.1",
+    "version": "2.0.0.2",
     "modules": [
         {
             "name": "Socialmedia Link Manager",
@@ -13,6 +13,9 @@
             "description": {
                 "en": {
                     "title": "Manage your Social Media Services here"
+                },
+                "de": {
+                    "title": "Social Media Dienste verwalten"
                 }
             },
             "require": {
