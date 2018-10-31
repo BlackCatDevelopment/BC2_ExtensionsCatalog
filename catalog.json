@@ -1,5 +1,5 @@
 {
-    "version": "2.0.0.2",
+    "version": "2.0.0.3",
     "modules": [
         {
             "name": "Socialmedia Link Manager",
@@ -8,7 +8,7 @@
             "version": "0.1",
             "author": "BlackCat Development",
             "license": "GNU General Public License",
-            "bundled": "N",
+            "bundled": "Y",
             "since": "31.10.2018",
             "description": {
                 "en": {
@@ -26,6 +26,32 @@
             "github": {
                 "organization": "BlackCatDevelopment",
                 "repository": "BC2_Socialmedia"
+            }
+        },{
+            "name": "Visitor Statistics",
+            "directory": "coreVisitorStatistics",
+            "guid": "",
+            "version": "0.1",
+            "author": "BlackCat Development",
+            "license": "GNU General Public License",
+            "bundled": "Y",
+            "since": "31.10.2018",
+            "description": {
+                "en": {
+                    "title": "Show page impressions"
+                },
+                "de": {
+                    "title": "Seitenzugriffe anzeigen"
+                }
+            },
+            "require": {
+                "core": {
+                    "release": "2.x"
+                }
+            },
+            "github": {
+                "organization": "BlackCatDevelopment",
+                "repository": "BC2_VisitorStatistics"
             }
         }
     ]
