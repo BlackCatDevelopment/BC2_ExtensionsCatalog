@@ -1,28 +1,28 @@
 {
-    "version": "2.0.0",
+    "version": "2.0.0.1",
     "modules": [
         {
-            "name": "Mehrspalten Layout",
-            "directory": "cc_multicolumn",
-            "guid": "b9db6fee-da6a-4203-aac4-9c50dc866ae3",
-            "version": "v2.0",
-            "author": "Matthias Glienke, creativecat",
+            "name": "Socialmedia Link Manager",
+            "directory": "coreSocialmedia",
+            "guid": "d3079e37-179a-4e79-ae69-3c454adc3594",
+            "version": "0.1",
+            "author": "BlackCat Development",
             "license": "GNU General Public License",
             "bundled": "N",
-            "since": "18.02.2015 17:40:07",
+            "since": "31.10.2018",
             "description": {
                 "en": {
-                    "title": "The add on \"MultiColumn\" provides a simple way to integrate multiple columns. You don't need to customize your frontend template. For details see <a href=\"https:\/\/github.com\/BlackCatDevelopment\/MultiColumn_for_BlackCatCMS\" target=\"_blank\">GitHub<\/a>.<br\/><br\/>Done by Matthias Glienke, <a class=\"icon-creativecat\" href=\"http:\/\/creativecat.de\"> creativecat<\/a>"
+                    "title": "Manage your Social Media Services here"
                 }
             },
             "require": {
                 "core": {
-                    "release": "1.x"
+                    "release": "2.x"
                 }
             },
             "github": {
                 "organization": "BlackCatDevelopment",
-                "repository": "MultiColumn_for_BlackCatCMS"
+                "repository": "BC2_Socialmedia"
             }
         }
     ]
