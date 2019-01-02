@@ -1,7 +1,32 @@
 {
-    "version": "2.0.0.4",
+    "version": "2.0.0.5",
     "modules": [
         {
+            "name": "Dashboard",
+            "directory": "coreDashboard",
+            "version": "2.0.0",
+            "author": "BlackCat Development",
+            "license": "GNU General Public License",
+            "bundled": "Y",
+            "since": "02.01.2019",
+            "description": {
+                "en": {
+                    "title": "Contains the default dashboard widgets"
+                },
+                "de": {
+                    "title": "Beinhaltet die Standard-Dashboard-Widgets"
+                }
+            },
+            "require": {
+                "core": {
+                    "release": "2.x"
+                }
+            },
+            "github": {
+                "organization": "BlackCatDevelopment",
+                "repository": "BC2_coreDashboard"
+            }
+        },{
             "name": "Socialmedia Link Manager",
             "directory": "coreSocialmedia",
             "guid": "d3079e37-179a-4e79-ae69-3c454adc3594",
